@@ -1,0 +1,230 @@
+//Imports
+@import 'colors';
+
+//fonts
+$font: Alegreya, serif;
+$font2: Lato, sans-serif;
+
+
+body {
+	font-family: $font2;
+	
+}
+.title {
+	font-family: $font;
+	padding-top: 1em;
+	margin-bottom: 2em;
+
+}
+
+
+h1 {
+	font-size: 55px;
+	font-family: $font;
+	font-weight: bold;
+	color: $tsiva;
+	margin-bottom: 20px;
+	
+}
+
+h2 {
+	font-size: 30px;
+	font-family: $font2;
+	color: $ssiva;
+	
+}
+
+
+/* Header section*/
+#header{
+	height: 80vh;
+	background: url(../assets/images/nav/pesada.jpg) fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.banner-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 80vh;
+}
+
+.banner-center a {
+	max-width: 350px;
+	font-size: 30px;
+	border: 3px solid $troze;
+	margin: 20px auto;
+	color: $bez;
+	background-color: $troze;
+	text-decoration: none;
+	border-radius: 10px;
+
+
+	display: flex;
+	flex-direction: column;
+	justify-item: end;
+}
+.banner-center a:hover {
+	background-color: $sroze;
+	border: $sroze;
+}
+	
+	/* Navbar */
+	
+	.navbar{
+		background: $tsiva;
+		color: $bez;
+		text-decoration: none;
+		font-style: $font;
+	}
+	.transparent{
+		background: transparent;
+	}
+
+	.nav-link {
+		color: $bez!important;
+		font-size: 20px;
+		padding: 10px 10px 10px 10px;
+	}
+	.navbar-brand {
+		font-size: 35px;
+	}
+
+	.navbar a:hover {
+		color: $troze!important;
+	}
+	/* End of Navbar */
+/* END of Header section*/
+
+
+
+
+
+
+/* Top post section */
+#topPost {
+	padding-bottom: 5em;
+}
+
+
+
+
+/* End of Top post section */
+
+
+
+
+
+/* Explore by country section */
+#explore {
+	background-color: $ssiva;
+	color: $bez!important;
+}
+#explore .title {
+
+	border-bottom: 1px solid;
+}
+
+#chartdiv {
+  width: 100%;
+  height: 500px;
+}
+#explore .col-md-4 {
+	margin-bottom: 50px;
+	margin-top: 50px;
+	border: 1px solid;
+}
+
+
+/* End of explore by country section */
+
+
+
+
+/* Favorit post Section  */
+#favoritPost {
+	padding-bottom: 5em;
+}
+
+
+
+
+
+/* End of favorit post section */
+
+
+
+/* SOCIAL SECTION */
+.owl-carousel{
+	background-color: $sroze;
+	padding-top: 40pt;	
+
+}
+
+#brand .card-img{
+
+}
+
+
+
+
+
+
+
+/* End of Social section */
+
+
+
+
+
+/* Footer section */
+#footer {
+	padding-top: 5em;
+	background: $tsiva;
+	color: $bez;
+}
+
+#footer .footer-icons a {
+	font-size: 40px;
+	color: $sroze!important;
+	margin-right: 15px;
+}
+#footer .footer-icons a:hover {
+	color: $bez!important;
+}
+
+#footer h3 {
+
+
+}
+
+.fb-page{
+	width: 300px
+}
+
+.footer-name {
+	font-size: 25px;
+}
+.copyrights {
+
+	display: inline-block;
+	border-radius: 3px;
+	border-top: 2px solid;
+	border-left: 2px solid;
+	border-right: 2px solid;
+
+}
+.copyrights h3{
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 15px;
+
+}
+
+
+
+/* End Of footer section */
