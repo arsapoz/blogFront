@@ -1,0 +1,144 @@
+body {
+  font-family: Lato, sans-serif; }
+
+.title {
+  font-family: Alegreya, serif;
+  padding-top: 1em;
+  margin-bottom: 2em; }
+
+h1 {
+  font-size: 55px;
+  font-family: Alegreya, serif;
+  font-weight: bold;
+  color: #3e4149;
+  margin-bottom: 20px; }
+
+h2 {
+  font-size: 30px;
+  font-family: Lato, sans-serif;
+  color: #444f59; }
+
+/* Header section*/
+#header {
+  height: 80vh;
+  background: url(../assets/images/nav/pesada.jpg) fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.banner-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh; }
+
+.banner-center a {
+  max-width: 350px;
+  font-size: 30px;
+  border: 3px solid #fd999a;
+  margin: 20px auto;
+  color: #FEFAEC;
+  background-color: #fd999a;
+  text-decoration: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-item: end; }
+
+.banner-center a:hover {
+  background-color: #fec8c9;
+  border: #fec8c9; }
+
+/* Navbar */
+.navbar {
+  background: #3e4149;
+  color: #FEFAEC;
+  text-decoration: none;
+  font-style: Alegreya, serif; }
+
+.transparent {
+  background: transparent; }
+
+.nav-link {
+  color: #FEFAEC !important;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px; }
+
+.navbar-brand {
+  font-size: 35px; }
+
+.navbar a:hover {
+  color: #fd999a !important; }
+
+/* End of Navbar */
+/* END of Header section*/
+/* Top post section */
+#topPost {
+  padding-bottom: 5em; }
+
+/* End of Top post section */
+/* Explore by country section */
+#explore {
+  background-color: #444f59;
+  color: #FEFAEC !important; }
+
+#explore .title {
+  border-bottom: 1px solid; }
+
+#chartdiv {
+  width: 100%;
+  height: 500px; }
+
+#explore .col-md-4 {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border: 1px solid; }
+
+/* End of explore by country section */
+/* Favorit post Section  */
+#favoritPost {
+  padding-bottom: 5em; }
+
+/* End of favorit post section */
+/* SOCIAL SECTION */
+.owl-carousel {
+  background-color: #fec8c9;
+  padding-top: 40pt; }
+
+/* End of Social section */
+/* Footer section */
+#footer {
+  padding-top: 5em;
+  background: #3e4149;
+  color: #FEFAEC; }
+
+#footer .footer-icons a {
+  font-size: 40px;
+  color: #fec8c9 !important;
+  margin-right: 15px; }
+
+#footer .footer-icons a:hover {
+  color: #FEFAEC !important; }
+
+.fb-page {
+  width: 300px; }
+
+.footer-name {
+  font-size: 25px; }
+
+.copyrights {
+  display: inline-block;
+  border-radius: 3px;
+  border-top: 2px solid;
+  border-left: 2px solid;
+  border-right: 2px solid; }
+
+.copyrights h3 {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 15px; }
+
+/* End Of footer section */
+
+/*# sourceMappingURL=style.css.map */
