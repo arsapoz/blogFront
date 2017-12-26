@@ -18,10 +18,6 @@ h2 {
   font-family: Lato, sans-serif;
   color: #444f59; }
 
-.nopadding {
-  padding-right: 0 !important;
-  margin: 0 !important; }
-
 /* Header section*/
 #header {
   height: 80vh;
@@ -97,13 +93,24 @@ h2 {
 #counter {
   border-top: 1px solid;
   font-family: Lato, sans-serif;
-  letter-spacing: 2px;
-  font-size: 50px;
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 45px;
+  color: #444f59; }
 
-#counter .col-md-4 {
-  margin-top: 1em;
-  padding-bottom: 0.5em; }
+#counter h3 {
+  font-size: 50px; }
+
+#counter h4 {
+  font-size: 20px; }
+
+#count1 {
+  background-color: #FEFAEC; }
+
+#count2 {
+  background-color: #fec8c9; }
+
+#count3 {
+  background-color: #fd999a; }
 
 /* End of explore by country section */
 /* Favorit post Section  */
@@ -129,7 +136,7 @@ h2 {
   margin-right: 15px; }
 
 #footer .footer-icons a:hover {
-  color: #fec8c9 !important; }
+  color: #fd999a !important; }
 
 .fb-page {
   width: 300px; }

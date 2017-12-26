@@ -34,10 +34,6 @@ h2 {
 	
 }
 
-.nopadding {
-	padding-right: 0 !important;
-   margin: 0 !important;
-}
 
 
 /* Header section*/
@@ -72,6 +68,13 @@ h2 {
 	flex-direction: column;
 	justify-item: end;
 }
+
+
+
+
+
+
+
 .banner-center a:hover {
 	background-color: $sroze;
 	border: $sroze;
@@ -141,15 +144,27 @@ h2 {
 #counter {
 	border-top: 1px solid;
 	font-family: $font2;
-	letter-spacing: 2px;
-	font-size: 50px;
 	font-weight:bold;
+	font-size: 45px;
+	color: $ssiva;
 }
-#counter .col-md-4 {
-	margin-top: 1em;
-	padding-bottom: 0.5em;
+#counter h3{
+	font-size: 50px;
+}
+#counter h4{
+	font-size: 20px;
+}
+#count1{
+	background-color: $bez;
+}
+#count2{
+	background-color: $sroze;
+}
+#count3{
+	background-color: $troze;
+	
+}
 
-}
 
 
 /* End of explore by country section */
@@ -204,7 +219,7 @@ h2 {
 	margin-right: 15px;
 }
 #footer .footer-icons a:hover {
-	color: $sroze!important;
+	color: $troze!important;
 }
 
 #footer h3 {
