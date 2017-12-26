@@ -87,12 +87,23 @@ h2 {
   color: #FEFAEC !important; }
 
 #explore .title {
-  border-bottom: 1px solid; }
+  border-bottom: 1px solid;
+  padding-bottom: 20px; }
 
 #chartdiv {
   width: 100%;
-  height: 500px;
-  border-right: 1px solid; }
+  height: 500px; }
+
+#counter {
+  border-top: 1px solid;
+  font-family: Lato, sans-serif;
+  letter-spacing: 2px;
+  font-size: 50px;
+  font-weight: bold; }
+
+#counter .col-md-4 {
+  margin-top: 1em;
+  padding-bottom: 0.5em; }
 
 /* End of explore by country section */
 /* Favorit post Section  */
@@ -114,11 +125,11 @@ h2 {
 
 #footer .footer-icons a {
   font-size: 40px;
-  color: #fec8c9 !important;
+  color: #FEFAEC !important;
   margin-right: 15px; }
 
 #footer .footer-icons a:hover {
-  color: #FEFAEC !important; }
+  color: #fec8c9 !important; }
 
 .fb-page {
   width: 300px; }
