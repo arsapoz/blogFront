@@ -45,6 +45,9 @@ h2 {
   flex-direction: column;
   justify-item: end; }
 
+#typed-strings {
+  font-size: 50px !important; }
+
 .banner-center a:hover {
   background-color: #fec8c9;
   border: #fec8c9; }
@@ -94,11 +97,11 @@ h2 {
   border-top: 1px solid;
   font-family: Lato, sans-serif;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 35px;
   color: #444f59; }
 
 #counter h3 {
-  font-size: 50px; }
+  font-size: 30px; }
 
 #counter h4 {
   font-size: 20px; }
@@ -155,7 +158,7 @@ h2 {
   margin-top: 15px;
   margin-left: 15px;
   margin-right: 15px;
-  font-size: 15px; }
+  font-size: 25px; }
 
 /* End Of footer section */
 
