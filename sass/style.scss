@@ -53,31 +53,13 @@ h2 {
 	height: 80vh;
 }
 
-.banner-center a {
-	max-width: 350px;
-	font-size: 30px;
-	border: 3px solid $troze;
-	margin: 20px auto;
-	color: $bez;
-	background-color: $troze;
-	text-decoration: none;
-	border-radius: 10px;
 
-
-	display: flex;
-	flex-direction: column;
-	justify-item: end;
-}
 
 #typed-strings {
 	font-size: 50px!important;
 }
 
 
-.banner-center a:hover {
-	background-color: $sroze;
-	border: $sroze;
-}
 	
 	/* Navbar */
 	
