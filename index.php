@@ -38,41 +38,9 @@
     <!-- Header section-->
     <header id="header" onscroll="navBoja">
     
-        <!-- nav -->
-        <nav class="navbar fixed-top navbar-expand-sm navbar-light transparent" id="nav">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-            <!-- brand -->
-            <a class="navbar-brand">Travle couple</a>
-             <!-- links -->
-            <div class="collapse navbar-collapse justify-content-center" id="nav-login">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-sign-in-alt"></i>
-
-Login</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">/</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-user-plus"></i>Register</a></li>
-
-                </ul>
-            </div>
+    <?php include "includes/nav.php" ?>
 
 
-
-
-
-            <!-- links -->
-            <div class="collapse navbar-collapse justify-content-end" id="nav-content">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a href="index.html" class="nav-link" >Home</a></li>
-                    <li class="nav-item"><a href="destination.html" class="nav-link">Destinations</a></li>
-                    <li class="nav-item"><a href="travel-tips.html" class="nav-link">Travel tips</a></li>
-                    <li class="nav-item"><a href="about.html" class="nav-link">About us</a></li>
-                    <li class="nav-item"><a href="work.html" class="nav-link">Work with us</a></li>
-                </ul>
-            </div>
-        </nav>
-        <!-- end of nav -->
         <!-- banner -->
         <div class="banner-center text-center">
             <h1>TRAVEL COUPLE</h1>
@@ -260,32 +228,7 @@ Login</a></li>
 
 
   
-        <section id="footer" class="container-fluid text-center">
-        <div class="row">
-
-        <div class="col-md-6 footer-name">
-        <p>Sanja Bukvić <i class="fas fa-heart"></i>
-
- Nikola Arsić</p>
-        </div>
-        
-
-         
-        <div class="footer-icons col-md-6">
-            <a href="#"><i class="fab fa-facebook-square"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-google-plus-square"></i></a>
-        </div>
-
-        <div class="col-md-12 text-center">
-
-            <div class="copyrights">
-              <h3>&copy;Copyrights 2017 - by Nikola Arsic</h3>
-            </div>
-        </div>
-        </section>
-
-
+<?php include "includes/footer.php" ?>
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

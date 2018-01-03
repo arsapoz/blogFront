@@ -31,45 +31,14 @@
     <!-- Header section-->
     <header id="header" onscroll="navBoja">
     
-        <!-- nav -->
-        <nav class="navbar fixed-top navbar-expand-sm navbar-light transparent" id="nav">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-            <!-- brand -->
-            <a  href="index.html" class="navbar-brand">Travle couple</a>
-             <!-- links -->
-            <div class="collapse navbar-collapse justify-content-center" id="nav-login">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-sign-in-alt"></i>
-
-Login</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">/</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-user-plus"></i>Register</a></li>
-
-                </ul>
-            </div>
+          <?php include "includes/nav.php" ?>
 
 
-
-
-
-            <!-- links -->
-            <div class="collapse navbar-collapse justify-content-end" id="nav-content">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a href="index.html" class="nav-link" >Home</a></li>
-                    <li class="nav-item"><a href="destinations.html" class="nav-link">Destinations</a></li>
-                    <li class="nav-item"><a href="travel-tips.html" class="nav-link">Travel tips</a></li>
-                    <li class="nav-item"><a href="about.html" class="nav-link">About us</a></li>
-                    <li class="nav-item"><a href="work.html" class="nav-link">Work with us</a></li>
-                </ul>
-            </div>
-        </nav>
-        <!-- end of nav -->
+          
         <!-- banner -->
         <div class="banner-center text-center">
-            <h1>STRANICA U IZRADI</h1>
-            <h2>Zahvaljujemo se na strpljenju</h2>
+            <h1>DESTINATION</h1>
+            <h2>“Be the change that you wish to see in the world.” - Gandhi</h2>
 
      
             <!--  <a href="#lastPost">Read our last post</a> -->
@@ -81,7 +50,88 @@ Login</a></li>
 
 
    
+    <!-- Last post section -->
+      <section id="topPost" class="container">
    
+    <div class="title text-center">
+    <h2 class="title"> GREECE</h2>
+    </div>
+
+
+        <div class="row">
+        <div class="col-md-6">   
+            <div class="card">
+            <img class="card-img" src="assets/images/nav/kefalonia.jpg" alt="card image cap">
+            </div>
+        </div>
+
+
+        <div class="col-md-6">
+            <div class="card">
+            <div class="card-body">
+            <h4 class="card-title"> Card title </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu   dent, sunt in culpa qui officia deserunt mollit anim id est laborum.... <a href="#">Read more</a></p>
+            <p class="card-text"><small class="text-muted"> Author and date</small></p>
+       </div>
+       </div>
+       </div>
+
+        </div>
+
+        
+
+
+
+
+
+
+
+
+    </div> <!-- End of row -->
+        </section>
+    <!-- End of last post secion -->
+
+
+
+
+
+
+
+
+
+
+      <!-- Last post section -->
+      <section id="favoritPost" class="container">
+   
+    <div class="title text-center">
+    <h2 class="title"> SPAIN</h2>
+    </div>
+
+
+        <div class="row">
+       
+
+
+        <div class="col-md-6">
+            <div class="card">
+            <div class="card-body">
+            <h4 class="card-title"> Card title </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu   dent, sunt in culpa qui officia deserunt mollit anim id est laborum.... <a href="#">Read more</a></p>
+            <p class="card-text"><small class="text-muted"> Author and date</small></p>
+       </div>
+       </div>
+       </div>
+        <div class="col-md-6">   
+            <div class="card">
+            <img class="card-img" src="assets/images/nav/kefalonia.jpg" alt="card image cap">
+            </div>
+        </div>
+
+        </section>
+
+
+
+
 
 
 
