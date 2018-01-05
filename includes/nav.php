@@ -27,7 +27,7 @@ Login</a></li>
             <div class="collapse navbar-collapse justify-content-end" id="nav-content">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a href="index.php" class="nav-link" >Home</a></li>
-                    <li class="nav-item"><a href="destination.php" class="nav-link">Destinations</a></li>
+                    <li class="nav-item"><a href="destinations.php" class="nav-link">Destinations</a></li>
                     <li class="nav-item"><a href="travel-tips.php" class="nav-link">Travel tips</a></li>
                     <li class="nav-item"><a href="about.php" class="nav-link">About us</a></li>
                     <li class="nav-item"><a href="work.php" class="nav-link">Work with us</a></li>
