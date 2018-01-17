@@ -33,7 +33,9 @@
         <span class="navbar-toggler-icon"></span>
         </button>
             <!-- brand -->
-            <a class="navbar-brand">Travle couple</a>
+                       <a class="navbar-brand" href="index.php">
+                <img src="assets/images/LOGO.png" width="60" height="60" alt="Travel couple logo">
+            </a>
              <!-- links -->
             <div class="collapse navbar-collapse justify-content-center" id="nav-login">
                 <ul class="navbar-nav">
@@ -53,11 +55,11 @@ Login</a></li>
             <!-- links -->
             <div class="collapse navbar-collapse justify-content-end" id="nav-content">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a href="index.html" class="nav-link" >Home</a></li>
-                    <li class="nav-item"><a href="destination.html" class="nav-link">Destinations</a></li>
-                    <li class="nav-item"><a href="travel-tips.html" class="nav-link">Travel tips</a></li>
-                    <li class="nav-item"><a href="about.html" class="nav-link">About us</a></li>
-                    <li class="nav-item"><a href="work.html" class="nav-link">Work with us</a></li>
+                    <li class="nav-item"><a href="index.php" class="nav-link" >Home</a></li>
+                    <li class="nav-item"><a href="destinations.php" class="nav-link">Destinations</a></li>
+                    <li class="nav-item"><a href="travel-tips.php" class="nav-link">Travel tips</a></li>
+                    <li class="nav-item"><a href="about.php" class="nav-link">About us</a></li>
+                    <li class="nav-item"><a href="work.php" class="nav-link">Work with us</a></li>
                 </ul>
             </div>
         </nav>
@@ -80,7 +82,6 @@ Login</a></li>
 
 
         <div class="col-md-12">
-            <div class="card" id="aboutText">
             <div class="card-body">
             <h4 class="card-title">O nama</h4>
             <p class="card-text">Ćao, mi smo Sanja i Nikola, diplomirani pravnik u pokušaju javnog ispoljavanja svojih literarnih sposobnosti i novopečeni inženjer IT tehnologija, bez koga bi ideja o stvaranju ovakvog travel blog-a ostala još dugo, dugo nerealizovana.<br><br>
@@ -97,7 +98,6 @@ Login</a></li>
 
             Pa, srećan nam put! :D</a></p>
             <p class="card-text"><small class="text-muted">Sanja Bukvić, 28.12.2017.</small></p>
-       </div>
        </div>
        </div>
     </header>
@@ -131,31 +131,7 @@ Login</a></li>
 
 
   
-        <section id="footer" class="container-fluid text-center">
-        <div class="row">
-
-        <div class="col-md-6 footer-name">
-        <p>Sanja Bukvić <i class="fas fa-heart"></i>
-
- Nikola Arsić</p>
-        </div>
-        
-
-         
-        <div class="footer-icons col-md-6">
-            <a href="#"><i class="fab fa-facebook-square"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-google-plus-square"></i></a>
-        </div>
-
-        <div class="col-md-12 text-center">
-
-            <div class="copyrights">
-              <h3>&copy;Copyrights 2017 - by Nikola Arsic</h3>
-            </div>
-        </div>
-        </section>
-
+<?php include "includes/footer.php" ?>
 
 
 
