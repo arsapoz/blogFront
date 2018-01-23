@@ -49,7 +49,7 @@
              <div id="typed-strings">
             <h2>"Svet je knjiga, a oni koji ne putuju, čitaju samo jednu stranicu." - Sveti Avgustin</h2>
             </div>
-<span id="typed"  style="font-size: 30px;color: #3e4149;font-family:Lato, sans-serif"></span>
+<span id="typed"  style="font-size: 30px;color: #ffffff;font-family:Lato, sans-serif"></span>
             </div>
        
     
@@ -74,16 +74,16 @@
         <div class="row">
         <div class="col-md-6">   
             <div class="card">
-            <img class="card-img" src="assets/images/nav/kefalonia.jpg" alt="card image cap">
+            <img class="card-img" src="assets/images/minhen/centar.jpg" alt="card image cap">
             </div>
         </div>
 
 
         <div class="col-md-6">
             <div class="card">
-            <div class="card-body">
-            <h4 class="card-title"> Card title </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu   dent, sunt in culpa qui officia deserunt mollit anim id est laborum.... <a href="#">Read more</a></p>
+            <div class="card-body" id="card-shadow">
+            <h4 class="card-title"> Minhen</h4>
+            <p class="card-text">Ako ste zaljubljenik u srednjevekovnu istoriju, spoj barokne arhitekture I građevina savremenog doba, ljubitelj bavarskih specijaliteta, a posebno hedonista koji neće odoleti ispijanju piva u jednoj od najstarijih pivnica, Minhen je verovatno pravo mesto za vas.... <a href="#">Read more</a></p>
             <p class="card-text"><small class="text-muted"> Author and date</small></p>
        </div>
        </div>
