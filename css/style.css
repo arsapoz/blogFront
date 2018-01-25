@@ -123,12 +123,14 @@ h2 {
 /* End of Social section */
 /* Footer section */
 #footer {
-  padding-top: 5em;
-  background: #3e4149;
-  color: #FEFAEC; }
+  padding-top: 36em;
+  background: url("../assets/images/halstat-kvadratici.jpg");
+  height: 70vh;
+  background-position: center;
+  background-size: cover; }
 
 #footer .footer-icons a {
-  font-size: 40px;
+  font-size: 30px;
   color: #FEFAEC !important;
   margin-right: 15px; }
 
@@ -141,18 +143,12 @@ h2 {
 .footer-name {
   font-size: 25px; }
 
-.copyrights {
-  display: inline-block;
-  border-radius: 3px;
-  border-top: 2px solid;
-  border-left: 2px solid;
-  border-right: 2px solid; }
-
 .copyrights h3 {
   margin-top: 15px;
   margin-left: 15px;
   margin-right: 15px;
-  font-size: 25px; }
+  font-size: 15px;
+  color: #FEFAEC !important; }
 
 /* End Of footer section */
 /* ABOUT US PAGE  */

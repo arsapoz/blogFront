@@ -5,7 +5,7 @@
         </button>
             <!-- brand -->
             <a class="navbar-brand" href="index.php">
-                <img src="assets/images/LOGO.png" width="60" height="60" alt="Travel couple logo">
+                <img src="assets/images/logo2-white.png" width="100" height="80" alt="Travel couple logo">
             </a>
              <!-- links -->
             <div class="collapse navbar-collapse justify-content-center" id="nav-login">
