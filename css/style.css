@@ -67,11 +67,8 @@ h2 {
   padding-bottom: 5em; }
 
 #card-shadow {
-  box-shadow: 3px 3px 15px; }
-
-.card-body {
-  border: none;
-  color: #3e4149; }
+  box-shadow: 3px 3px 15px;
+  border: none; }
 
 /* End of Top post section */
 /* Explore by country section */
@@ -79,13 +76,9 @@ h2 {
   background-color: #444f59;
   color: #FEFAEC !important; }
 
-#explore .title {
-  border-bottom: 1px solid;
-  padding-bottom: 20px; }
-
 #chartdiv {
   width: 100%;
-  height: 500px; }
+  height: 600px; }
 
 #counter {
   border-top: 1px solid;
@@ -123,16 +116,18 @@ h2 {
 /* End of Social section */
 /* Footer section */
 #footer {
-  padding-top: 36em;
-  background: url("../assets/images/halstat-kvadratici.jpg");
+  background: url("../assets/images/halstat.jpg");
   height: 70vh;
   background-position: center;
   background-size: cover; }
 
+#footer .row {
+  padding-top: 430px; }
+
 #footer .footer-icons a {
   font-size: 30px;
   color: #FEFAEC !important;
-  margin-right: 15px; }
+  margin-right: 35px; }
 
 #footer .footer-icons a:hover {
   color: #fd999a !important; }
@@ -140,14 +135,11 @@ h2 {
 .fb-page {
   width: 300px; }
 
-.footer-name {
-  font-size: 25px; }
-
 .copyrights h3 {
   margin-top: 15px;
   margin-left: 15px;
   margin-right: 15px;
-  font-size: 15px;
+  font-size: 20px;
   color: #FEFAEC !important; }
 
 /* End Of footer section */

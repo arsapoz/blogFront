@@ -2,7 +2,6 @@
         <div class="row">
 
     
-        
           <div class="col-md-6 text-center">
 
             <div class="copyrights">
@@ -16,6 +15,7 @@
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-google-plus-square"></i></a>
         </div>
+
 
       
         </section>

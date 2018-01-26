@@ -14,8 +14,8 @@
 
 
     <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Alegreya|Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu" rel="stylesheet">
+
 
     <!-- Font awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
@@ -49,7 +49,7 @@
              <div id="typed-strings">
             <h2>"Svet je knjiga, a oni koji ne putuju, čitaju samo jednu stranicu." - Sveti Avgustin</h2>
             </div>
-<span id="typed"  style="font-size: 30px;color: #ffffff;font-family:Lato, sans-serif"></span>
+<span id="typed"  style="font-size: 30px;color: #ffffff"></span>
             </div>
        
     
@@ -73,7 +73,7 @@
 
         <div class="row">
         <div class="col-md-6">   
-            <div class="card">
+            <div class="card" id="card-shadow">
             <img class="card-img" src="assets/images/minhen/centar.jpg" alt="card image cap">
             </div>
         </div>
@@ -112,8 +112,8 @@
     <div class="row">
         <div class="col-md-12">
         <h3 class="title">EXPLORE BY COUNTRY</h3>
-          <div id="mapdiv" style="width: 100%; height: 550px;"></div>
-
+          <!-- <div id="mapdiv" style="width: 100%; height: 550px;"></div> -->
+          <object type="image/svg+xml" data="assets/images/1.svg"></object>
         </div>
 
     </div>
@@ -163,7 +163,7 @@
 
         <div class="col-md-6">
             <div class="card">
-            <div class="card-body">
+            <div class="card-body" id="card-shadow">
             <h4 class="card-title"> Card title </h4>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu   dent, sunt in culpa qui officia deserunt mollit anim id est laborum.... <a href="#">Read more</a></p>
             <p class="card-text"><small class="text-muted"> Author and date</small></p>
@@ -171,7 +171,7 @@
        </div>
        </div>
         <div class="col-md-6">   
-            <div class="card">
+            <div class="card" id="card-shadow">
             <img class="card-img" src="assets/images/nav/kefalonia.jpg" alt="card image cap">
             </div>
         </div>

@@ -108,10 +108,7 @@ h2 {
 }
 #card-shadow {
 	box-shadow: 3px 3px 15px;
-}
-.card-body{
 	border: none;
-	color: $tsiva;
 }
 
 
@@ -126,15 +123,11 @@ h2 {
 	background-color: $ssiva;
 	color: $bez!important;
 }
-#explore .title {
 
-	border-bottom: 1px solid;
-	padding-bottom: 20px;
-}
 
 #chartdiv {
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
 #counter {
 	border-top: 1px solid;
@@ -203,20 +196,19 @@ h2 {
 
 /* Footer section */
 #footer {
-	padding-top: 36em;
-	background: url('../assets/images/halstat-kvadratici.jpg');
-	
-
-
-		height: 70vh;
+	background: url('../assets/images/halstat.jpg');
+	height: 70vh;
 	background-position: center;
 	background-size: cover;
+}
+#footer .row {
+	padding-top: 430px;
 }
 
 #footer .footer-icons a {
 	font-size: 30px;
 	color: $bez!important;
-	margin-right: 15px;
+	margin-right: 35px;
 }
 #footer .footer-icons a:hover {
 	color: $troze!important;
@@ -227,20 +219,12 @@ h2 {
 	width: 300px
 }
 
-.footer-name {
-	font-size: 25px;
-}
-.copyrights {
 
-
-
-}
 .copyrights h3{
 	margin-top: 15px;
 	margin-left: 15px;
 	margin-right: 15px;
-	font-size: 15px;
-
+	font-size: 20px;
 	color: $bez!important;
 
 }
