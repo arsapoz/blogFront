@@ -33,6 +33,10 @@ h2 {
 	color: $ssiva;
 	
 }
+p {
+	font-family: $font2;
+	color: $tsiva;
+}
 
 
 
@@ -53,15 +57,13 @@ h2 {
 	height: 80vh;
 }
 
-.hero-tekst{
-	position: relative;
-	display: block;
+.banner-center {
+	text-shadow: 2px 3px 4px black;
 }
 
 
-#typed-strings {
-	font-size: 50px!important;
-}
+
+
 
 
 	
@@ -201,22 +203,60 @@ h2 {
 	background-position: center;
 	background-size: cover;
 }
-#footer .row {
-	padding-top: 430px;
+
+
+#footer h2 {
+	color: $bez;
+	font-weight: bold;
+	padding-top: 90px;
+	padding-bottom: 15px;
+}
+#footer p{
+	padding-bottom: 15px;
+	color: $bez;
 }
 
+
+.subs {
+	background-color: #687887;
+	border: none;
+	color: $bez!important;
+	opacity: 0.8;
+	width: 45%;
+	height: 45px;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+::placeholder {
+	color: $bez!important;
+	letter-spacing: 2px;
+	padding-left: 10px;
+}
+.dugmence {
+	color: $bez;
+	background-color: $troze;
+	border: none;
+	margin-top: 20px;
+	width: 25%;
+	height: 45px;
+	margin-bottom: 130px;
+	font-weight: bold;
+
+}
+.dugmence:hover {
+	background-color: $sroze;
+	color: $ssiva;
+	border: none;
+}
+
+
 #footer .footer-icons a {
-	font-size: 30px;
+	font-size: 35px;
 	color: $bez!important;
 	margin-right: 35px;
 }
 #footer .footer-icons a:hover {
 	color: $troze!important;
-}
-
-
-.fb-page{
-	width: 300px
 }
 
 
@@ -230,8 +270,13 @@ h2 {
 }
 
 
-
 /* End Of footer section */
+
+
+
+
+
+
 
 
 

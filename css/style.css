@@ -18,6 +18,10 @@ h2 {
   font-family: Ubuntu, sans-serif;
   color: #444f59; }
 
+p {
+  font-family: Ubuntu, sans-serif;
+  color: #3e4149; }
+
 /* Header section*/
 #header {
   height: 80vh;
@@ -32,12 +36,8 @@ h2 {
   justify-content: center;
   height: 80vh; }
 
-.hero-tekst {
-  position: relative;
-  display: block; }
-
-#typed-strings {
-  font-size: 50px !important; }
+.banner-center {
+  text-shadow: 2px 3px 4px black; }
 
 /* Navbar */
 .navbar {
@@ -121,19 +121,53 @@ h2 {
   background-position: center;
   background-size: cover; }
 
-#footer .row {
-  padding-top: 430px; }
+#footer h2 {
+  color: #FEFAEC;
+  font-weight: bold;
+  padding-top: 90px;
+  padding-bottom: 15px; }
+
+#footer p {
+  padding-bottom: 15px;
+  color: #FEFAEC; }
+
+.subs {
+  background-color: #687887;
+  border: none;
+  color: #FEFAEC !important;
+  opacity: 0.8;
+  width: 45%;
+  height: 45px;
+  font-size: 25px;
+  margin-bottom: 15px; }
+
+::placeholder {
+  color: #FEFAEC !important;
+  letter-spacing: 2px;
+  padding-left: 10px; }
+
+.dugmence {
+  color: #FEFAEC;
+  background-color: #fd999a;
+  border: none;
+  margin-top: 20px;
+  width: 25%;
+  height: 45px;
+  margin-bottom: 130px;
+  font-weight: bold; }
+
+.dugmence:hover {
+  background-color: #fec8c9;
+  color: #444f59;
+  border: none; }
 
 #footer .footer-icons a {
-  font-size: 30px;
+  font-size: 35px;
   color: #FEFAEC !important;
   margin-right: 35px; }
 
 #footer .footer-icons a:hover {
   color: #fd999a !important; }
-
-.fb-page {
-  width: 300px; }
 
 .copyrights h3 {
   margin-top: 15px;

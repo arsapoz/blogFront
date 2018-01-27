@@ -112,8 +112,7 @@
     <div class="row">
         <div class="col-md-12">
         <h3 class="title">EXPLORE BY COUNTRY</h3>
-          <!-- <div id="mapdiv" style="width: 100%; height: 550px;"></div> -->
-          <object type="image/svg+xml" data="assets/images/1.svg"></object>
+         <div id="mapdiv" style="width: 100%; height: 550px;"></div>
         </div>
 
     </div>
