@@ -56,7 +56,7 @@ areas :
 ]
 },
 areasSettings : {
-autoZoom : true,
+autoZoom : false,
 color : "#444f59",
 colorSolid : "#fec8c9",
 selectedColor : "#fec8c9",

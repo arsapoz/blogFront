@@ -7,7 +7,7 @@
             <a class="navbar-brand" href="index.php">
                 <img src="assets/images/logo2-white.png" width="100" height="80" alt="Travel couple logo">
             </a>
-             <!-- links -->
+             <!-- links -
             <div class="collapse navbar-collapse justify-content-center" id="nav-login">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-sign-in-alt"></i>

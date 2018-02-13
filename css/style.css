@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 body {
   font-family: Ubuntu, sans-serif; }
 
@@ -21,6 +28,9 @@ h2 {
 p {
   font-family: Ubuntu, sans-serif;
   color: #3e4149; }
+
+ul {
+  list-style-type: none; }
 
 /* Header section*/
 #header {
@@ -67,7 +77,7 @@ p {
   padding-bottom: 5em; }
 
 #card-shadow {
-  box-shadow: 3px 3px 15px;
+  box-shadow: 2px 6px 17px #444f59;
   border: none; }
 
 /* End of Top post section */
@@ -76,9 +86,87 @@ p {
   background-color: #444f59;
   color: #FEFAEC !important; }
 
-#chartdiv {
+.accordion {
   width: 100%;
-  height: 600px; }
+  max-width: 460px;
+  background: #3e4149;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 0;
+  margin-left: 40px; }
+
+.accordion .link {
+  cursor: pointer;
+  display: block;
+  padding: 15px 15px 15px 42px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 1px solid #444f59;
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease; }
+
+.accordion li:last-child .link {
+  border-bottom: 0; }
+
+.accordion li svg {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  font-size: 18px;
+  color: white;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease; }
+
+.accordion li svg.fa-chevron-down {
+  right: 12px;
+  left: auto;
+  font-size: 16px; }
+
+.accordion li.open .link {
+  color: #FEFAEC; }
+
+.accordion li.open svg {
+  color: #FEFAEC; }
+
+.accordion li.open svg.fa-chevron-down {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+.accordion li.default .submenu {
+  display: block; }
+
+/**
+ * Submenu
+ -----------------------------*/
+.submenu {
+  display: none;
+  background: #FEFAEC;
+  font-size: 14px;
+  font-weight: bold; }
+
+.submenu li {
+  border-bottom: 1px solid #444f59; }
+
+.submenu a {
+  display: block;
+  text-decoration: none;
+  color: #3e4149;
+  padding: 12px;
+  padding-left: 42px;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease; }
+
+.submenu a:hover {
+  background: #fd999a;
+  color: #FEFAEC; }
 
 #counter {
   border-top: 1px solid;
@@ -117,15 +205,14 @@ p {
 /* Footer section */
 #footer {
   background: url("../assets/images/halstat.jpg");
-  height: 70vh;
   background-position: center;
   background-size: cover; }
 
 #footer h2 {
   color: #FEFAEC;
   font-weight: bold;
-  padding-top: 90px;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  padding-top: 70px; }
 
 #footer p {
   padding-bottom: 15px;
@@ -138,7 +225,7 @@ p {
   opacity: 0.8;
   width: 45%;
   height: 45px;
-  font-size: 25px;
+  font-size: 15px;
   margin-bottom: 15px; }
 
 ::placeholder {
@@ -151,10 +238,10 @@ p {
   background-color: #fd999a;
   border: none;
   margin-top: 20px;
-  width: 25%;
+  width: 28%;
   height: 45px;
-  margin-bottom: 130px;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-bottom: 120px; }
 
 .dugmence:hover {
   background-color: #fec8c9;
@@ -170,7 +257,6 @@ p {
   color: #fd999a !important; }
 
 .copyrights h3 {
-  margin-top: 15px;
   margin-left: 15px;
   margin-right: 15px;
   font-size: 20px;

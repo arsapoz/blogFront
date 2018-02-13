@@ -106,17 +106,81 @@
 
 
 
-    <section id="explore" class="container-fluid text-center">
+    <section id="explore" class="container-fluid">
    
     
+        <h3 class="title text-center">EXPLORE BY COUNTRY</h3>
     <div class="row">
-        <div class="col-md-12">
-        <h3 class="title">EXPLORE BY COUNTRY</h3>
-         <div id="mapdiv" style="width: 100%; height: 550px;"></div>
-        </div>
 
+        <div class="col-md-4">
+    <ul id="accordion" class="accordion">
+        <li>
+            <div class="link"><i class="fab fa-font-awesome-flag"></i>Austrija<i class="fas fa-chevron-down"></i></div>
+            <ul class="submenu">
+                <li><a href="#">Beč</a></li>
+                <li><a href="#">Hallstatt</a></li>
+                <li><a href="#">Salzburg</a></li>
+            </ul>
+        </li>
+        <li>
+            <div class="link"><i class="far fa-flag""></i>Nemačka<i class="fas fa-chevron-down"></i></div>
+            <ul class="submenu">
+                <li><a href="#">Minhen</a></li>
+            </ul>
+        </li>
+        <li>
+            <div class="link"><i class="fab fa-font-awesome-flag"></i>Francuska<i class="fas fa-chevron-down"></i></div>
+            <ul class="submenu">
+                <li><a href="#">Pariz</a></li>
+            </ul>
+        </li>
+        <li><div class="link"><i class="far fa-flag""></i>Češka<i class="fas fa-chevron-down"></i></div>
+            <ul class="submenu">
+                <li><a href="#">Prag</a></li>
+            </ul>
+        </li>
+        <li><div class="link"><i class="fab fa-font-awesome-flag"></i>Romunija<i class="fas fa-chevron-down"></i></div>
+            <ul class="submenu">
+                <li><a href="#">Temišvar</a></li>
+            </ul>
+        </li>
+        <li><div class="link"><i class="far fa-flag"></i>Grčka<i class="fas fa-chevron-down"></i></div>
+            <ul class="submenu">
+                <li><a href="#">Solun</a></li>
+                <li><a href="#">Tasos</a></li>
+                <li><a href="#">Lefkada</a></li>
+                <li><a href="#">Krf</a></li>
+                <li><a href="#">Skijatos</a></li>
+            </ul>
+        </li>
+        <li><div class="link"><i class="fab fa-font-awesome-flag"></i>Italija<i class="fas fa-chevron-down"></i></div>
+            <ul class="submenu">
+                <li><a href="#">Venecija</a></li>
+            </ul>
+        </li>
+        <li><div class="link"><i class="far fa-flag"></i>Turska<i class="fas fa-chevron-down"></i></div>
+            <ul class="submenu">
+                <li><a href="#">Kusadasi</a></li>
+                <li><a href="#">Efes</a></li>
+                <li><a href="#">Pamukale</a></li>
+            </ul>
+        </li>
+        <li><div class="link"><i class="fab fa-font-awesome-flag"></i>Srbija<i class="fas fa-chevron-down"></i></div>
+            <ul class="submenu">
+                <li><a href="#">Beograd</a></li>
+                <li><a href="#">Novi sad</a></li>
+                <li><a href="#">Požarevac</a></li>
+            </ul>
+        </li>
+    </ul>
     </div>
-    <div class="row" id="counter">
+
+  <div class="col-md-8">
+    <div id="mapdiv" style="width: 100%; height: 100%;"></div>
+</div>
+
+</div>
+    <div class="row text-center" id="counter">
         <div class="col-md-4" id="count1">
             <i class="fas fa-building"></i> 
             <h3 class="count"><span>15</span></h3>
@@ -140,7 +204,6 @@
        
     
 
-</div>
     </section>
 
 
