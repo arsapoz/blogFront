@@ -93,8 +93,7 @@ ul {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  padding: 0;
-  margin-left: 40px; }
+  padding: 0; }
 
 .accordion .link {
   cursor: pointer;

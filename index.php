@@ -176,7 +176,7 @@
     </div>
 
   <div class="col-md-8">
-    <div id="mapdiv" style="width: 100%; height: 100%;"></div>
+    <div id="mapdiv" style="width: 100%; height: 100%;margin"></div>
 </div>
 
 </div>
