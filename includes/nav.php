@@ -30,7 +30,7 @@ Login</a></li>
                     <li class="nav-item"><a href="destinations.php" class="nav-link">Destinations</a></li>
                     <li class="nav-item"><a href="travel-tips.php" class="nav-link">Travel tips</a></li>
                     <li class="nav-item"><a href="about.php" class="nav-link">About us</a></li>
-                    <li class="nav-item"><a href="work.php" class="nav-link">Work with us</a></li>
+                    <!-- <li class="nav-item"><a href="work.php" class="nav-link">Work with us</a></li> -->
                 </ul>
             </div>
         </nav>

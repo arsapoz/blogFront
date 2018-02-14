@@ -75,6 +75,10 @@
         <div class="col-md-6">   
             <div class="card" id="card-shadow">
             <img class="card-img" src="assets/images/minhen/centar.jpg" alt="card image cap">
+
+            <div class="img-middle">
+            <div class="img-text"><a href="#">View more</a></div>
+            </div>
             </div>
         </div>
 
@@ -235,7 +239,12 @@
         <div class="col-md-6">   
             <div class="card" id="card-shadow">
             <img class="card-img" src="assets/images/nav/kefalonia.jpg" alt="card image cap">
+            
+            <div class="img-middle">
+                <div class="img-text"><a href="#">View more</a></div>
             </div>
+            </div>
+
         </div>
 
         </section>

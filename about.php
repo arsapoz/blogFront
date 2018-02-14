@@ -25,19 +25,18 @@
 
 
   </head>
-  <body>
-
+  <body id="about">
    <!-- nav -->
-        <nav class="navbar fixed-top navbar-expand-sm navbar-light" id="nav">
+        <nav class="navbar navbar-expand-sm navbar-light" id="nav">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
             <!-- brand -->
                        <a class="navbar-brand" href="index.php">
-                <img src="assets/images/LOGO.png" width="60" height="60" alt="Travel couple logo">
+                <img src="assets/images/logo2-white.png" width="60" height="60" alt="Travel couple logo">
             </a>
              <!-- links -->
-            <div class="collapse navbar-collapse justify-content-center" id="nav-login">
+<!--             <div class="collapse navbar-collapse justify-content-center" id="nav-login">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-sign-in-alt"></i>
 
@@ -46,7 +45,7 @@ Login</a></li>
                     <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-user-plus"></i>Register</a></li>
 
                 </ul>
-            </div>
+            </div> -->
 
 
 
@@ -59,7 +58,7 @@ Login</a></li>
                     <li class="nav-item"><a href="destinations.php" class="nav-link">Destinations</a></li>
                     <li class="nav-item"><a href="travel-tips.php" class="nav-link">Travel tips</a></li>
                     <li class="nav-item"><a href="about.php" class="nav-link">About us</a></li>
-                    <li class="nav-item"><a href="work.php" class="nav-link">Work with us</a></li>
+                    <!-- <li class="nav-item"><a href="work.php" class="nav-link">Work with us</a></li> -->
                 </ul>
             </div>
         </nav>
@@ -67,11 +66,11 @@ Login</a></li>
 
   <header>
 
-       
+       <div class="container">
      
 
          <!-- Last post section -->
-      <section id="aboutUS" class="container">
+      <section id="aboutUS">
    
         <div class="row">
              <div class="col-md-12">   
@@ -96,7 +95,7 @@ Login</a></li>
 
             Neka naša ,,ljubav u koferima’’, bude Vaša inspiracija.<br><br>
 
-            Pa, srećan nam put! :D</a></p>
+            Pa, srećan nam put! :D</p>
             <p class="card-text"><small class="text-muted">Sanja Bukvić, 28.12.2017.</small></p>
        </div>
        </div>
@@ -128,11 +127,10 @@ Login</a></li>
 
 
 
-
+</div>
 
   
 <?php include "includes/footer.php" ?>
-
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
