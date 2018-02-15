@@ -25,7 +25,7 @@
 
 
   </head>
-  <body id="about">
+  <body>
    <!-- nav -->
         <nav class="navbar navbar-expand-sm navbar-light" id="nav">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,25 +64,32 @@ Login</a></li>
         </nav>
         <!-- end of nav -->
 
-  <header>
 
-       <div class="container">
      
 
-         <!-- Last post section -->
-      <section id="aboutUS">
+   <section class="container">
    
+    <div class="title text-center">
+    <h2 class="title"> About us</h2>
+    </div>
+
+
         <div class="row">
-             <div class="col-md-12">   
-            <div class="card" id="aboutImg">
-            <img class="card-img" src="assets/images/about.JPG" alt="card image cap">
+        <div class="col-md-12">   
+            <div class="card" id="card-shadow">
+            <img class="card-img" src="assets/images/minhen/centar.jpg" alt="card image cap">
+
+            <div class="img-middle">
+            <div class="img-text"><a href="#">View more</a></div>
+            </div>
             </div>
         </div>
 
 
-        <div class="col-md-12">
+        <div class="col-md-6">
+            <div class="card">
             <div class="card-body">
-            <h4 class="card-title">O nama</h4>
+            <h4 class="card-title"> Minhen</h4>
             <p class="card-text">Ćao, mi smo Sanja i Nikola, diplomirani pravnik u pokušaju javnog ispoljavanja svojih literarnih sposobnosti i novopečeni inženjer IT tehnologija, bez koga bi ideja o stvaranju ovakvog travel blog-a ostala još dugo, dugo nerealizovana.<br><br>
 
             Zaljubljeni kako jedno u drugo, tako i u ceo svet, trudićemo se da vam kroz dnevnik nasih uspomena dočaramo na najbolji mogući način našu zajedničku strast – putovanje.<br><br>
@@ -96,27 +103,13 @@ Login</a></li>
             Neka naša ,,ljubav u koferima’’, bude Vaša inspiracija.<br><br>
 
             Pa, srećan nam put! :D</p>
-            <p class="card-text"><small class="text-muted">Sanja Bukvić, 28.12.2017.</small></p>
+            <p class="card-text"><small class="text-muted"> Author and date</small></p>
        </div>
        </div>
-    </header>
-    <!-- End of Header section -->
+       </div>
 
-
-
-   
-
-
-
-
-    </div> <!-- End of row -->
-        </section>
-    <!-- End of last post secion -->
-
-
-
-
-
+        </div>
+    </section>
 
 
 
