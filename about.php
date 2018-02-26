@@ -25,7 +25,7 @@
 
 
   </head>
-  <body>
+  <body id="about">
    <!-- nav -->
         <nav class="navbar navbar-expand-sm navbar-light" id="nav">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,15 +69,17 @@ Login</a></li>
 
    <section class="container">
    
-    <div class="title text-center">
-    <h2 class="title"> About us</h2>
-    </div>
+            <div class="title text-center">
+            <h2 class="about-welc">WELCOME</h2>
+            <h3>We're creative couple and who  
+        loves to learn, collaborate and create.</h3>
+            </div>
 
 
         <div class="row">
         <div class="col-md-12">   
-            <div class="card" id="card-shadow">
-            <img class="card-img" src="assets/images/minhen/centar.jpg" alt="card image cap">
+            <div class="card">
+            <img class="card-img" src="assets/images/kefal.jpg" alt="card image cap">
 
             <div class="img-middle">
             <div class="img-text"><a href="#">View more</a></div>
@@ -86,21 +88,17 @@ Login</a></li>
         </div>
 
 
-        <div class="col-md-6">
-            <div class="card">
+        <div class="col-md-12">
+            <div class="card" id="about-text">
             <div class="card-body">
-            <h4 class="card-title"> Minhen</h4>
-            <p class="card-text">Ćao, mi smo Sanja i Nikola, diplomirani pravnik u pokušaju javnog ispoljavanja svojih literarnih sposobnosti i novopečeni inženjer IT tehnologija, bez koga bi ideja o stvaranju ovakvog travel blog-a ostala još dugo, dugo nerealizovana.<br><br>
+            <h4 class="card-title"> O nama </h4>
+            <p class="card-text">Ćao, mi smo Sanja i Nikola, diplomirani pravnik u pokušaju javnog ispoljavanja svojih literarnih sposobnosti i novopečeni inženjer IT tehnologija, bez koga bi ideja o stvaranju ovakvog travel blog-a ostala još dugo, dugo nerealizovana.
+            Zaljubljeni kako jedno u drugo, tako i u ceo svet, trudićemo se da vam kroz dnevnik nasih uspomena dočaramo na najbolji mogući način našu zajedničku strast – putovanje.
+            Seneka je davno rekao: ,,Putovanje i promena mesta daju umu novu snagu’’. I zaista, onaj osećaj kada spoznate činjenicu da na ovoj planeti postoje ljudi koji žive drugačijim životom, predeli koji ne liče na onaj ispred vaše kuće i građevine od kojih vam zastaje dah, shvatite da ste bogati onoliko, koliko ste se puta u životu tako osećali.
+            Ovaj blog je namenjen svima koji vole da istražuju, da upoznaju nova mesta, nove ljude i njihove kulture i neizostavno, kuhinje različitih krajeva sveta, kojima ovaj ,,gurmanski’’ par ni po koju cenu ne može da odoli.
 
-            Zaljubljeni kako jedno u drugo, tako i u ceo svet, trudićemo se da vam kroz dnevnik nasih uspomena dočaramo na najbolji mogući način našu zajedničku strast – putovanje.<br><br>
-
-            Seneka je davno rekao: ,,Putovanje i promena mesta daju umu novu snagu’’. I zaista, onaj osećaj kada spoznate činjenicu da na ovoj planeti postoje ljudi koji žive drugačijim životom, predeli koji ne liče na onaj ispred vaše kuće i građevine od kojih vam zastaje dah, shvatite da ste bogati onoliko, koliko ste se puta u životu tako osećali.<br><br>
-
-            Ovaj blog je namenjen svima koji vole da istražuju, da upoznaju nova mesta, nove ljude i njihove kulture i neizostavno, kuhinje različitih krajeva sveta, kojima ovaj ,,gurmanski’’ par ni po koju cenu ne može da odoli.<br><br>
-
-            Upravo zato, podelićemo sa vama lične doživljaje svega do sada viđenog, kao i korisne savete koji će vam olakšati nova putovanja i dati vam ideje za neki novi ,,beg od stvarnosti.<br><br>
-
-            Neka naša ,,ljubav u koferima’’, bude Vaša inspiracija.<br><br>
+            Upravo zato, podelićemo sa vama lične doživljaje svega do sada viđenog, kao i korisne savete koji će vam olakšati nova putovanja i dati vam ideje za neki novi ,,beg od stvarnosti.
+            Neka naša ,,ljubav u koferima’’, bude Vaša inspiracija.
 
             Pa, srećan nam put! :D</p>
             <p class="card-text"><small class="text-muted"> Author and date</small></p>
@@ -120,7 +118,7 @@ Login</a></li>
 
 
 
-</div>
+
 
   
 <?php include "includes/footer.php" ?>

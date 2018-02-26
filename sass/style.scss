@@ -280,6 +280,7 @@ p {
 	font-weight:bold;
 	font-size: 35px;
 	color: $ssiva;
+	margin-top: 30px;
 }
 #counter h3{
 	font-size: 30px;
@@ -426,20 +427,26 @@ p {
 
 /* ABOUT US PAGE  */
 ///////////////////////////////
-
-
-
-
-
-#aboutImg{
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
+.about-welc {
+	border-bottom: 3px solid $tsiva;
+	display: inline-block;
+	font-weight: 700;
+	line-height: 1em;
+	letter-spacing: .135em;
+	padding-bottom: .125em;
+	text-transform: uppercase;
+	margin-top: 40px;
 }
 
 
+#about{
+	background-color: #f1f1f1;
+}
+#about-text {
+	margin-top: 10px;
+	margin-bottom: 70px;
+	border: none;
+}
 /* End of Top post section */
 
 
