@@ -6,7 +6,8 @@
   box-sizing: border-box; }
 
 body {
-  font-family: Ubuntu, sans-serif; }
+  font-family: Ubuntu, sans-serif;
+  background-color: #f1f1f1; }
 
 .title {
   font-family: Lora, serif;
@@ -313,14 +314,22 @@ ul {
   text-transform: uppercase;
   margin-top: 40px; }
 
-#about {
-  background-color: #f1f1f1; }
+.about-message {
+  font-weight: 400;
+  line-height: 26px;
+  color: #3e4149;
+  margin-bottom: 30px; }
 
 #about-text {
   margin-top: 10px;
   margin-bottom: 70px;
   border: none; }
 
-/* End of Top post section */
+/* TRAVEL TIPS PAGE */
+.travel-tips .card {
+  border: none; }
+
+.travel-tips h3 {
+  padding-bottom: 60px; }
 
 /*# sourceMappingURL=style.css.map */

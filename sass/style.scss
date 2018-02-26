@@ -16,6 +16,7 @@ $font: Lora, serif;
 
 body {
 	font-family: $font2;
+	background-color: #f1f1f1;
 	
 }
 .title {
@@ -427,6 +428,7 @@ p {
 
 /* ABOUT US PAGE  */
 ///////////////////////////////
+///////////////////////////////
 .about-welc {
 	border-bottom: 3px solid $tsiva;
 	display: inline-block;
@@ -437,18 +439,28 @@ p {
 	text-transform: uppercase;
 	margin-top: 40px;
 }
+.about-message {
+	font-weight: 400;
+	line-height: 26px;
+	color: $tsiva;
+	margin-bottom: 30px;
 
-
-#about{
-	background-color: #f1f1f1;
 }
+
+
 #about-text {
 	margin-top: 10px;
 	margin-bottom: 70px;
 	border: none;
 }
-/* End of Top post section */
 
 
-
-
+/* TRAVEL TIPS PAGE */
+/////////////////////////////////
+/////////////////////////////////
+.travel-tips .card {
+	border: none;
+}
+.travel-tips h3 {
+	padding-bottom: 60px;
+}

@@ -25,7 +25,7 @@
 
 
   </head>
-  <body id="about">
+  <body>
    <!-- nav -->
         <nav class="navbar navbar-expand-sm navbar-light" id="nav">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,7 +71,7 @@ Login</a></li>
    
             <div class="title text-center">
             <h2 class="about-welc">WELCOME</h2>
-            <h3>We're creative couple and who  
+            <h3 class="about-message">We're creative couple and who  
         loves to learn, collaborate and create.</h3>
             </div>
 

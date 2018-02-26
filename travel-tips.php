@@ -25,27 +25,53 @@
 
 
   </head>
-  <body>
+  <body class="travel-tips">
 
 
-    <!-- Header section-->
-    <header id="header" onscroll="navBoja">
+
     
-       
-    <?php include "includes/nav.php" ?>
+    <!-- nav -->
+        <nav class="navbar navbar-expand-sm navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+            <!-- brand -->
+                       <a class="navbar-brand" href="index.php">
+                <img src="assets/images/logo2-white.png" width="60" height="60" alt="Travel couple logo">
+            </a>
+             <!-- links -->
+<!--             <div class="collapse navbar-collapse justify-content-center" id="nav-login">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-sign-in-alt"></i>
 
-       
-        <!-- banner -->
-        <div class="banner-center text-center">
-            <h1>TRAVEL TIPS </h1>
-            <h2>“Be the change that you wish to see in the world.” - Gandhi</h2>
+Login</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">/</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-user-plus"></i>Register</a></li>
 
-     
-            <!--  <a href="#lastPost">Read our last post</a> -->
-        </div>
-        <!-- end of baner-->
-    </header>
-    <!-- End of Header section -->
+                </ul>
+            </div> -->
+
+
+
+
+
+            <!-- links -->
+            <div class="collapse navbar-collapse justify-content-end" id="nav-content">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="index.php" class="nav-link" >Home</a></li>
+                    <li class="nav-item"><a href="destinations.php" class="nav-link">Destinations</a></li>
+                    <li class="nav-item"><a href="travel-tips.php" class="nav-link">Travel tips</a></li>
+                    <li class="nav-item"><a href="about.php" class="nav-link">About us</a></li>
+                    <!-- <li class="nav-item"><a href="work.php" class="nav-link">Work with us</a></li> -->
+                </ul>
+            </div>
+        </nav>
+        <!-- end of nav -->
+
+ <div class="title text-center">
+            <h2 class="about-welc">travel tips</h2>
+            <h3 class="about-message">Pouceni dugogodisnjim iskustvom, želeli bi smo korisnim savetima da vam dodatno ulepšamo putovanje</h3>
+            </div>
 
 
 
@@ -53,15 +79,16 @@
     <!-- Last post section -->
       <section id="topPost" class="container">
    
-    <div class="title text-center">
-    <h2 class="title"> PACKING</h2>
-    </div>
 
 
         <div class="row">
         <div class="col-md-6">   
             <div class="card">
-            <img class="card-img" src="assets/images/nav/kefalonia.jpg" alt="card image cap">
+            <img class="card-img" src="assets/images/travel-tips.jpg" alt="card image cap">
+
+            <div class="img-middle">
+            <div class="img-text"><a href="#">View more</a></div>
+            </div>
             </div>
         </div>
 
@@ -103,9 +130,6 @@
       <!-- Last post section -->
       <section id="favoritPost" class="container">
    
-    <div class="title text-center">
-    <h2 class="title"> SAVE YOUR MONEY</h2>
-    </div>
 
 
         <div class="row">
@@ -123,7 +147,11 @@
        </div>
         <div class="col-md-6">   
             <div class="card">
-            <img class="card-img" src="assets/images/nav/kefalonia.jpg" alt="card image cap">
+            <img class="card-img" src="assets/images/travel-tips.jpg" alt="card image cap">            
+
+            <div class="img-middle">
+            <div class="img-text"><a href="#">View more</a></div>
+            </div>
             </div>
         </div>
 
@@ -153,9 +181,7 @@
 
 
 
-        <!-- Optional JavaScript -->
-    <script src="js/main.js"></script>
-    <script src="js/plugins/amchart.js"></script>
+
 
 
 
