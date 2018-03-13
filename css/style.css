@@ -35,7 +35,7 @@ ul {
 
 /* Header section*/
 #header {
-  height: 80vh;
+  height: 75vh;
   background: url(../assets/images/nav/jezero.JPG) fixed;
   background-position: center;
   background-size: cover;
@@ -123,23 +123,23 @@ ul {
 /* End of Top post section */
 /* Explore by country section */
 #explore {
-  background-color: #444f59;
-  color: #FEFAEC !important; }
+  background-color: white; }
 
 .accordion {
   width: 100%;
-  max-width: 460px;
-  background: #3e4149;
+  max-width: 450px;
+  background: #fff;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  padding: 0; }
+  padding: 0;
+  margin-left: 50px; }
 
 .accordion .link {
   cursor: pointer;
   display: block;
   padding: 15px 15px 15px 42px;
-  color: white;
+  color: black;
   font-size: 14px;
   font-weight: 700;
   border-bottom: 1px solid #444f59;
@@ -156,7 +156,7 @@ ul {
   top: 16px;
   left: 12px;
   font-size: 18px;
-  color: white;
+  color: black;
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease; }
@@ -167,10 +167,10 @@ ul {
   font-size: 16px; }
 
 .accordion li.open .link {
-  color: #FEFAEC; }
+  color: black; }
 
 .accordion li.open svg {
-  color: #FEFAEC; }
+  color: #f1f1f1; }
 
 .accordion li.open svg.fa-chevron-down {
   -webkit-transform: rotate(180deg);
@@ -186,7 +186,7 @@ ul {
  -----------------------------*/
 .submenu {
   display: none;
-  background: #FEFAEC;
+  background: #f1f1f1;
   font-size: 14px;
   font-weight: bold; }
 
@@ -208,11 +208,10 @@ ul {
   color: #FEFAEC; }
 
 #counter {
-  border-top: 1px solid;
   font-family: Ubuntu, sans-serif;
   font-weight: bold;
   font-size: 35px;
-  color: #444f59;
+  color: black;
   margin-top: 30px; }
 
 #counter h3 {
@@ -220,15 +219,6 @@ ul {
 
 #counter h4 {
   font-size: 20px; }
-
-#count1 {
-  background-color: #FEFAEC; }
-
-#count2 {
-  background-color: #fec8c9; }
-
-#count3 {
-  background-color: #fd999a; }
 
 /* End of explore by country section */
 /* Favorit post Section  */

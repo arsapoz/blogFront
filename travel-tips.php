@@ -70,7 +70,7 @@ Login</a></li>
 
  <div class="title text-center">
             <h2 class="about-welc">travel tips</h2>
-            <h3 class="about-message">Pouceni dugogodisnjim iskustvom, želeli bi smo korisnim savetima da vam dodatno ulepšamo putovanje</h3>
+            <h3 class="about-message">Pouceni dugogodisnjim iskustvom, želeli bismo korisnim savetima da vam dodatno ulepšamo putovanje</h3>
             </div>
 
 

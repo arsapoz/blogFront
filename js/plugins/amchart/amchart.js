@@ -61,7 +61,7 @@ color : "#444f59",
 colorSolid : "#fec8c9",
 selectedColor : "#fec8c9",
 outlineColor : "#FEFAEC",
-rollOverColor : "#fd9  99a",
+rollOverColor : "black",
 rollOverOutlineColor : "#3e4149",
 }
 });
