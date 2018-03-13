@@ -294,6 +294,33 @@ ul {
 
 /* End Of footer section */
 /* ABOUT US PAGE  */
+#about .card {
+  border-radius: 0 0 10px 10px;
+  font-size: 20px; }
+
+#about .card-img {
+  border-radius: 10px 10px 0 0; }
+
+#borderabez {
+  border: none !important;
+  background-color: #f1f1f1 !important; }
+
+#about .card-title {
+  font-size: 35px;
+  font-family: Lora, serif;
+  font-weight: 700;
+  padding-bottom: 20px; }
+
+#about .card-title:hover {
+  color: #fd999a; }
+
+#about p:last-child {
+  border-top: 1px solid #f1f1f1; }
+
+#about span {
+  color: #fd999a;
+  font-weight: 700; }
+
 .about-welc {
   border-bottom: 3px solid #3e4149;
   display: inline-block;

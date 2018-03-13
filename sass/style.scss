@@ -430,6 +430,33 @@ p {
 /* ABOUT US PAGE  */
 ///////////////////////////////
 ///////////////////////////////
+#about .card{
+	border-radius: 0 0 10px 10px;
+	font-size: 20px;
+}
+
+#about .card-img {
+	border-radius: 10px 10px 0 0;
+}
+#borderabez{
+	border: none!important;
+	background-color: #f1f1f1!important;
+}
+
+#about .card-title {
+	font-size: 35px;
+	font-family: $font;
+	font-weight: 700;
+	padding-bottom: 20px;
+
+}
+#about .card-title:hover {
+	color: $troze;
+
+}
+#about p:last-child {border-top: 1px solid #f1f1f1;
+}
+#about span {color: $troze;font-weight: 700;}
 .about-welc {
 	border-bottom: 3px solid $tsiva;
 	display: inline-block;
